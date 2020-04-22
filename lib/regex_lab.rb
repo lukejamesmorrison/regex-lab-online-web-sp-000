@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-   words = word.scan(/\b[aeiou]{1}/)
+   word.scan(/\b[aeiou]{1}/).length > 0
    puts words[0]
 end
 
